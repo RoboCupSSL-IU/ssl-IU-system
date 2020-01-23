@@ -1,0 +1,9 @@
+[submodule "RobocupSSLController"]
+	path = RobocupSSLController
+	url = git@github.com:RoboCupSSL-IU/RobocupSSLController.git
+[submodule "ssl-vision"]
+	path = ssl-vision
+	url = git@github.com:RoboCupSSL-IU/ssl-vision.git
+[submodule "grSim"]
+	path = grSim
+	url = https://github.com/RoboCupSSL-IU/grSim
