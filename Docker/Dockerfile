@@ -53,7 +53,7 @@ RUN cd vartypes && mkdir build && cd build && cmake .. && make && make install
 # RUN make
 # RUN make install
 
-RUN git clone https://github.com/RoboCupSSL-IU/SSL-IU-system.git
+RUN git clone --recursive https://github.com/RoboCupSSL-IU/SSL-IU-system.git
 
 RUN cd SSL-IU-system/grSim && mkdir build && cd build && cmake .. && make
 
