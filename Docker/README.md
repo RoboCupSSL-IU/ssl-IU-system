@@ -11,7 +11,7 @@ with the needed packages.
 
 ### Run
 
-```docker run -p 6080:80 -p 5900:5900 -v /dev/shm:/dev/shm --name RoboCupSSL robocup_docker_img```
+```docker run -p 6080:80 -p 5900:5900 -p 20011:20011/udp -v /dev/shm:/dev/shm --name RoboCupSSL robocup_docker_img```
 
 Then enter from the webpage ```127.0.0.1:6080```
 or from any VNC server software: ```127.0.0.1:5900```

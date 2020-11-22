@@ -57,6 +57,9 @@ RUN git clone --recursive https://github.com/RoboCupSSL-IU/SSL-IU-system.git
 
 RUN cd SSL-IU-system/grSim && mkdir build && cd build && cmake .. && make
 
+
+RUN apt-get -qy update --fix-missing
+
 RUN cd SSL-IU-system/ssl-vision && ./InstallPackagesUbuntu.sh &&\
     mkdir build && cd build && cmake -DUSE_V4L=true .. && cd .. && make
 
